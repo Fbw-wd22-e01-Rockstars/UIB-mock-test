@@ -1,0 +1,140 @@
+body {
+  background-color: black;
+}
+.container {
+  margin: auto;
+  width: 76.3rem;
+  background-color: white;
+  margin-top: 325px;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/chess_set.png");
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+header h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+/* cocktail section */
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+.spassky h3,
+.fischer h3 {
+  color: white;
+}
+p,
+li,
+caption,
+footer {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.cocktails {
+  display: grid;
+  grid-template-rows: 600px 600px;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+  align-content: center;
+}
+.cocktails li {
+  position: relative;
+  bottom: 11em;
+}
+.fischer li,
+.spassky li {
+  color: white;
+}
+
+/* thirsty thursday */
+
+h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+caption {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* table */
+table {
+  font-size: 5em;
+  margin: auto;
+}
+
+th {
+  background-color: bisque;
+  border: 1px solid brown;
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+  background-color: wheat;
+}
+
+/* form */
+
+.form-container {
+  width: 50%;
+  margin: auto;
+  background-color: #ffe4c4;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 23px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
+  display: block;
+}
+input {
+  width: 40em;
+  height: 30px;
+}
+button {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+/* Footer */
+
+footer p {
+  position: relative;
+  top: 45px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+i {
+  color: sienna;
+  font-size: 35px;
+  letter-spacing: 50px;
+}
